@@ -8,8 +8,8 @@ class Header extends React.Component{
   render(){
     return (
       <div className="header">
-        <div class="fa fa-clock-o icon"></div>
-        <div className="heading"> React Clicker</div>
+        <div className="fa fa-clock-o icon"></div>
+        <div className="heading"> React Clock</div>
       </div>
       )
   }
