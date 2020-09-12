@@ -1,0 +1,36 @@
+.container{
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 45%;
+  margin-top  : 10%;
+  font-size: 18px;
+  justify-content: space-between;
+}
+
+
+
+.header{
+  display: flex;
+  background-color: #444;
+  color: 00f;
+  justify-content: space-around;
+  width: 160px;
+  height: 40px;
+  align-items: center;
+  border-radius: 5px 5px 0px 0px;
+  color: white;
+  padding:4px 10px;
+}
+
+
+
+.App-header{
+  margin-top: 0;
+}
+.icon{
+  font-size: 2rem;
+}
+.heading{
+
+}
