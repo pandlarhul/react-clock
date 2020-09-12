@@ -1,0 +1,35 @@
+.toggle-switch{
+  display: flex
+  width: 180px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.toggle-btn{
+  width: 25px;
+  height: 12px;
+  background-color:#cccccc;
+  border-radius: 30px;
+  padding: 1%;
+}
+
+.cal-icon{
+  margin-left: 5px;
+  font-size: 1rem;
+}
+
+.toggle-btn > .inner-circle{
+  width: 12px;
+  height: 12px;
+  border-radius: 10px;
+  background-color: hsl(240, 78%, 98%);
+}
+.toggle-btn.active{
+   background-color: hsl(182, 81%, 45%);
+  
+}
+.toggle-btn.active > .inner-circle{
+  margin-left: 43%;
+  margin-right: 43%;
+}
