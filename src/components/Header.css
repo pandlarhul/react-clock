@@ -5,7 +5,7 @@
   margin-left: 45%;
   margin-top  : 10%;
   font-size: 18px;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 
@@ -13,8 +13,7 @@
 .header{
   display: flex;
   background-color: #444;
-  color: 00f;
-  justify-content: space-around;
+  justify-content: center;
   width: 160px;
   height: 40px;
   align-items: center;
@@ -30,7 +29,8 @@
 }
 .icon{
   font-size: 2rem;
+  margin-right: 3px;
 }
 .heading{
-
+  margin-left: 5px;
 }
