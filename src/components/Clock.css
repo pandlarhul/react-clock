@@ -1,0 +1,33 @@
+.clock{
+  width: 100px;
+  height: 100px;
+  background-color: #111;
+  border-radius: 100px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.circle-date{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.time{
+  font-size: 1.3rem;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  color: #66d9ff;
+}
+.date{
+  font-size: 0.4rem;
+  font-size: solid;
+  display: flex;
+  justify-content: center;
+  color: #1fd2ff;
+}
+
